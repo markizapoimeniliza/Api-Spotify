@@ -20,8 +20,8 @@
 
 const ApiController = (() => {
 
-    const Client_Id = 'a4b756f4e2484077a2dca4feae1cd65b';
-    const Client_Secret = '2dca921b89c44fb6b35671c0a7383193';
+    const Client_Id = '';
+    const Client_Secret = '';
 
 
     //API MODULE
