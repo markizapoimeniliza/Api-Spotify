@@ -1,0 +1,64 @@
+/* 
+
+
+/* prefers-reduced-motion: no-preference/reduce 
+@media ()
+@keyframes <name> {
+}
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(129, 115, 68)
+}
+
+.select{
+    width: 24.39vmax;
+    height: 8.3vmin;
+}
+
+label{
+    /*INLINE BLOCK || BLOCK - WIDTH ALL THE TIME*/
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+  }​
+
+.labelAdd{
+    /* display: inline; */
+    padding-top: 2vmin;
+}
+
+#btn{
+    position: sticky;
+    margin-top: 7%;
+    margin-left: 6%;
+    /*LENGTH VALUE DOESNT EXIST ! ONLY PERCENTAGE*/
+    width: 94%; /* % for block elements*/
+    height: 45%;
+}
+
+
+@media screen and (width  <= 800px){
+    body{
+        background-color: rgb(248, 220, 144);
+    }
+    #btn{
+        background-color: rgb(214, 189, 127);
+        border-color: rgb(208, 186, 114);
+    }
+
+
+}
+
+@media screen and (width > 800px){
+    body{
+        background-color: rgb(253, 243, 224);
+    }
+    #btn{
+        background-color: rgb(247, 223, 176);
+        border-color: rgb(251, 224, 201);
+    }
+} 
+
